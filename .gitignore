@@ -1,0 +1,50 @@
+# Local runtime and Python caches
+.runtime/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+# Generated notes and task state (never public by default)
+视频笔记/
+.work/
+_shots/
+_backup/
+output/
+outputs/
+downloads/
+minutes/
+task.json
+transcript.txt
+transcript.json
+summary.json
+文字稿.md
+总结.md
+视频笔记.html
+*.log
+
+# Audio / video and download remnants
+*.mp4
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.webm
+*.mkv
+*.mov
+*.flv
+*.ogg
+*.opus
+*.m4s
+*.part
+*.ytdl
+
+# Credentials and local configuration
+.env
+.env.*
+*.pem
+*.key
+cookies*.txt
+credentials*.json
